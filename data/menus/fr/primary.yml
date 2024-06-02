@@ -21,4 +21,8 @@ items:
   target: "/organisations/"
   kind: page
   children: []
+- title: Page de test
+  target: "/page-de-test-1/"
+  kind: page
+  children: []
 
