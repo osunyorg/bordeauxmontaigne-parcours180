@@ -20,4 +20,4 @@ deployment:
 deployment:
   targets:
     - name: "production"
-      URL: "s3://mon-parcours-en-180s.bordeauxmontaigne.osuny.site?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
+      URL: "s3://mon-parcours-en-180s.bordeauxmontaigne.osuny.site?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"
