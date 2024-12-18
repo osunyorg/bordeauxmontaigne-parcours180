@@ -4,36 +4,42 @@ items:
 - title: Actualités
   target: "/actualites/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Agenda
   target: "/agenda/"
   kind: page
+  new_tab: false
   children: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Projets
   target: "/projets/"
   kind: page
+  new_tab: false
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
+  new_tab: false
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Organisations
   target: "/organisations/"
   kind: page
+  new_tab: false
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Page de test
   target: "/page-de-test-1/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/page-de-test-1"
   file: content/fr/pages/page-de-test-1/_index.html

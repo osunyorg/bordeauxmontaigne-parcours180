@@ -4,24 +4,28 @@ items:
 - title: Mentions légales
   target: "/mentions-legales/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/mentions-legales"
   file: content/fr/pages/mentions-legales/_index.html
 - title: Politique de confidentialité
   target: "/politique-de-confidentialite/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/politique-de-confidentialite"
   file: content/fr/pages/politique-de-confidentialite/_index.html
 - title: Accessibilité
   target: "/accessibilite/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/accessibilite"
   file: content/fr/pages/accessibilite/_index.html
 - title: Plan du site
   target: "/plan-du-site/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/plan-du-site"
   file: content/fr/pages/plan-du-site/_index.html
