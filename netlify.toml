@@ -3,11 +3,11 @@
   command = "yarn osuny build"
 
 [build.environment]
-  HUGO_VERSION = "0.123.7"
+  HUGO_VERSION = "0.142.0"
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
-    X-Content-Type-Options = "nosniff" 
+    X-Content-Type-Options = "nosniff"
