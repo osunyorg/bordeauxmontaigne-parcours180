@@ -2,6 +2,11 @@
 
 baseURL: https://mon-parcours-en-180s.bordeauxmontaigne.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: 7df3b3de-c966-4201-93ba-e4661c05add8
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
