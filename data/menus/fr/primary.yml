@@ -43,4 +43,11 @@ items:
   children: []
   path: "/pages/page-de-test-1"
   file: content/fr/pages/page-de-test-1/_index.html
+- title: Expositions
+  target: "/expositions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/exhibitions"
+  file: content/fr/exhibitions/_index.html
 
