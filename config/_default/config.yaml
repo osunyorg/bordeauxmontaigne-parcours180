@@ -1,9 +1,7 @@
 theme: osuny
-paginate: 18
-enableRobotsTXT: true
-removePathAccents: true
+_merge: deep
 params:
   summary:
     position: hero
   search:
-    active: false  
+    active: false
