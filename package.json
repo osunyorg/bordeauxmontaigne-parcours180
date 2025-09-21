@@ -5,6 +5,8 @@
   "author": "osunyorg",
   "license": "MIT",
   "dependencies": {
+    "intersection-observer": "^0.12.2",
+    "leaflet": "^1.9.4",
     "osuny": "./themes/osuny"
   },
   "scripts": {
