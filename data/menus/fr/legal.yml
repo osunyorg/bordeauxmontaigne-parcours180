@@ -22,11 +22,4 @@ items:
   children: []
   path: "/pages/accessibilite"
   file: content/fr/pages/accessibilite/_index.html
-- title: Plan du site
-  target: "/plan-du-site/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/plan-du-site"
-  file: content/fr/pages/plan-du-site/_index.html
 
