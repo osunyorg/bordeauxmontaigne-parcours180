@@ -1,12 +1,50 @@
-.taxonomies-container
+.block-video--player
+    background: none !important
+
+#block-video-title-0
     display: none
 
-// .block-class-video-content-selector .container .block-content ul li figure picture img
-//     max-width: 100%
+.taxonomies-container
+    display: none
 
 .block-class-video-content-selector img
     max-width: 100% !important
 
 .block-class-video-content-selector li
-    background-color: #FFF1E5
+    display: inherit !important
+    background-color: $color-background-alt
     padding: 1rem
+
+.block-class-video-content-selector .selected
+    background-color: $color-hover
+
+.block-class-video-content-selector li:hover
+    background-color: $color-hover
+    cursor: pointer
+
+.lightbox-figure
+    display: none
+
+.block-key_figures
+    background-color: $color-background-alt
+    padding-top: 2rem
+    padding-bottom: 2rem
+
+.block-key_figures .key-figure-text span
+    color: $color-accent
+
+//     hapters.push(document.getElementsByClassName("block-class-video-metier")[0]); //0
+// chapters.push(document.getElementsByClassName("block-class-video-parcours")[0]); //1
+// chapters.push(document.getElementsByClassName("block-class-video-links")[0]); //2
+
+.selected
+    display: inherit !important
+
+.block-class-video-metier
+    display: none
+
+.block-class-video-parcours
+    display: none
+
+.block-class-video-links
+    display: none
