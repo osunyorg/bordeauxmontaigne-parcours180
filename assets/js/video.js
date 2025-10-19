@@ -54,7 +54,6 @@ for (let index = 0; index < tagElems.length; index++) {
 const categories = document
   .getElementsByClassName("block-categories")[0]
   .getElementsByClassName("category-item");
-// console.log(tags);
 
 for (let i = 0; i < categories.length; i++) {
   const categoryElem = categories[i];
@@ -62,9 +61,7 @@ for (let i = 0; i < categories.length; i++) {
     .getElementsByTagName("a")[0]
     .innerHTML.toLowerCase()
     .replace(/\s/g, "");
-  console.log(categoryName);
-  // console.log(tags[0]);
-  // console.log(categoryName);
+
   //look for a matching tag
   let match = false;
   for (let j = 0; j < tags.length; j++) {
