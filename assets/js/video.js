@@ -36,3 +36,45 @@ function setSelectedContent(currentButton, index) {
   currentButton.classList.add("selected");
   chapters[index].classList.add("selected");
 }
+
+//Catégories -------------------------
+//Get tags
+const tagElems = document
+  .getElementsByClassName("taxonomy-tags-videos")[0]
+  .getElementsByClassName("taxonomy-children")[0]
+  .getElementsByTagName("a");
+
+let tags = [];
+for (let index = 0; index < tagElems.length; index++) {
+  const tagElem = tagElems[index];
+  tags.push(tagElem.innerHTML);
+}
+
+//Hide not related tags
+const categories = document
+  .getElementsByClassName("block-categories")[0]
+  .getElementsByClassName("category-item");
+// console.log(tags);
+
+for (let i = 0; i < categories.length; i++) {
+  const categoryElem = categories[i];
+  const categoryName = categoryElem
+    .getElementsByTagName("a")[0]
+    .innerHTML.toLowerCase()
+    .replace(/\s/g, "");
+  console.log(categoryName);
+  // console.log(tags[0]);
+  // console.log(categoryName);
+  //look for a matching tag
+  let match = false;
+  for (let j = 0; j < tags.length; j++) {
+    const tag = tags[j].toLowerCase().replace(/\s/g, "");
+    console.log(tag);
+    if (tag === categoryName) {
+      match = true;
+    }
+  }
+  if (!match) {
+    categoryElem.parentElement.style.display = "none";
+  }
+}
