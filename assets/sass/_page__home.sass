@@ -9,10 +9,11 @@ body.page__home
         .top
             margin-bottom: 1rem
 
-    .block-testimonials .testimonial
-        padding: 0
+    .block-testimonials // notre sélection
+        .testimonial
+            padding: 0
 
-    .block-pages
+    .block-pages // favoris sur l'ordinateur
         background: $color-background
 
         .top .block-title
@@ -20,3 +21,36 @@ body.page__home
 
         article
             background: $color-background-alt
+
+        .cards
+            @include media-min(1800px)
+                grid-template-columns: repeat(4, 1fr)
+
+            img
+                aspect-ratio: 1 / 1
+                padding: 1rem
+
+    .block-class-categories-territories // catégories territoires
+        ul
+            @include media-min(1200px)
+                grid-template-columns: repeat(5, 1fr)
+
+            article
+                height: 100%
+                background: $color-background-alt
+                padding-bottom: 2rem
+
+                img
+                    aspect-ratio: unset
+
+    .block-links // offres de formations
+        margin-top: 8rem
+
+        .top .block-title
+            width: 100%
+
+        ul
+            grid-template-columns: repeat(4, 1fr)
+
+            li
+                height: 100%

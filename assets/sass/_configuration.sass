@@ -37,3 +37,11 @@ $block-testimonials-font-size: 20px
 
 $hero-background-color: none
 $footer-background-color: none
+
+@mixin media-min($width)
+    @media (min-width: $width)
+        @content
+
+@mixin media-max($width)
+    @media (max-width: $width)
+        @content
