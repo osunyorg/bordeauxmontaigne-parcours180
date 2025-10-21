@@ -43,6 +43,33 @@ body.page__home
                 img
                     aspect-ratio: unset
 
+    .block-class-categories-skills // catégories des compétences
+        ul
+            grid-template-columns: repeat(2, 1fr)
+            grid-gap: 2rem var(--grid-gutter)
+
+            article
+                padding: 1rem
+                height: 100%
+                flex-direction: row
+                background: $color-background-alt
+
+                .category-content
+                    flex: 3
+
+                .media
+                    flex: 1
+                    margin: unset
+                    margin: auto auto
+
+                    picture
+                        display: flex
+                        justify-content: center
+
+                    img
+                        aspect-ratio: unset
+                        width: 75%
+
     .block-links // offres de formations
         margin-top: 8rem
 
