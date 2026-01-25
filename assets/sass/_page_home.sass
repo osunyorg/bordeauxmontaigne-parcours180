@@ -115,12 +115,47 @@ body.page__home .document-content .blocks
         ul
             grid-template-columns: repeat(5, 1fr)
 
-            article
+            li article
                 height: 100%
                 padding-bottom: 2rem
 
                 img
                     aspect-ratio: unset
+
+            li:nth-of-type(1):hover article
+                background: #FF3E46
+
+                img
+                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                    transform: translateX(-100rem)
+
+            li:nth-of-type(2):hover article
+                background: #FFC364
+
+                img
+                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                    transform: translateX(-100rem)
+
+            li:nth-of-type(3):hover article
+                background: #346FFF
+
+                img
+                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                    transform: translateX(-100rem)
+
+            li:nth-of-type(4):hover article
+                background: #C559CB
+
+                img
+                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                    transform: translateX(-100rem)
+
+            li:nth-of-type(5):hover article
+                background: #46C7C8
+
+                img
+                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                    transform: translateX(-100rem)
 
     .block-class-qu-est-ce-que-la-plateforme
         position: relative
@@ -129,6 +164,7 @@ body.page__home .document-content .blocks
 
         .chapter .text
             width: unset
+            max-width: 60rem
 
             h2
                 font-weight: bold
@@ -163,6 +199,7 @@ body.page__home .document-content .blocks
 
         .chapter .text
             width: unset
+            max-width: 60rem
 
             h2
                 font-weight: bold

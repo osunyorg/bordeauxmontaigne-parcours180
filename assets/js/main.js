@@ -1,3 +1,3 @@
 import "./theme/";
-import "./grabToScroll.js";
 import "./video.js";
+import "./grabToScroll.js";

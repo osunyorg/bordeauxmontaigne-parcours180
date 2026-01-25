@@ -2,6 +2,10 @@ const container = document.getElementsByClassName(
   "block-class-video-content-selector"
 )[0];
 
+if (!container) {
+  return;
+}
+
 //Get chapters to hide in correct order
 let chapters = [];
 chapters.push(document.getElementsByClassName("block-class-video-metier")[0]); //0
