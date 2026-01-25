@@ -7,10 +7,29 @@ header#document-header
     img
         height: 4rem !important
 
-main header .container
-        background-image: url("/assets/images/landing-page.jpg") !important
-        color: white
-        padding-bottom: 10rem
+main header
+    padding-bottom: unset !important
 
-.block-class-les-videos-par-competences-a-s-orienter
-    background: red
+    .container
+        position: relative
+        padding: unset
+
+        .content
+            padding: unset
+
+            .hero-text
+                position: absolute
+                z-index: 1
+                top: 0
+                left: 6rem
+                color: white
+                margin: unset !important
+                height: 100%
+                display: flex
+                align-items: center
+
+                h1
+                    margin: auto auto
+
+    figure
+        width: 100% !important
