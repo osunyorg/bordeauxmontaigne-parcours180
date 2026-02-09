@@ -1,3 +1,3 @@
 import "./theme/";
-import "./video.js";
+// import "./video.js"; //? code de loic
 import "./grabToScroll.js";
