@@ -2,261 +2,286 @@ body.page__home
     h1
         max-width: 733px
 
-body.page__home .document-content .blocks
+    main header
+        padding-bottom: unset !important
 
-    .block-class-decouvrir-des-videos-de-temoignages
-        margin-top: 4rem
-        margin-bottom: unset
+        .container
+            position: relative
+            padding: unset
 
-        .top
-            margin: unset
+            .content
+                padding: unset
 
-            h2
-                font-weight: bold
+                .hero-text
+                    position: absolute
+                    z-index: 1
+                    top: 0
+                    left: 6rem
+                    color: white
+                    margin: unset !important
+                    height: 100%
+                    display: flex
+                    align-items: center
 
-    .block-class-les-videos-a-la-une
-        background: #FBB53B
-        margin-top: 3rem
-        margin-bottom: unset
-        padding: 2rem 0
+                    h1
+                        margin: auto auto
 
-        & *
-            color: black
+        figure
+            width: 100% !important
 
-        .slider-controls li::after
-            background: black
+    .document-content .blocks
+        .block-class-decouvrir-des-videos-de-temoignages
+            margin-top: 4rem
+            margin-bottom: unset
 
-        .slider-track figure blockquote p
-            font-size: 24px
+            .top
+                margin: unset
 
-    .block-class-les-videos-par-competences-a-s-orienter
-        padding-top: 5rem
-        padding-bottom: 5rem
-        margin: unset
+                h2
+                    font-weight: bold
 
-        ul
-            display: flex
-            word-break: unset
-            overflow-x: scroll
-            cursor: grab
-            user-select: none
-
-            &::-webkit-scrollbar
-                height: 2.5rem
-
-            &::-webkit-scrollbar-thumb
-                background-color: rgba(black, .3)
-                border-radius: 100rem
-                border: solid 1rem $color-background
-
-                &:hover
-                    background-color: rgba(black, .5)
+        .block-class-les-videos-a-la-une
+            background: #FBB53B
+            margin-top: 3rem
+            margin-bottom: unset
+            padding: 2rem 0
 
             & *
-                user-drag: none
-                -webkit-user-drag: none
+                color: black
+
+            .slider-controls li::after
+                background: black
+
+            .slider-track figure blockquote p
+                font-size: 24px
+
+        .block-class-les-videos-par-competences-a-s-orienter
+            padding-top: 5rem
+            padding-bottom: 5rem
+            margin: unset
+
+            ul
+                display: flex
+                word-break: unset
+                overflow-x: scroll
+                cursor: grab
                 user-select: none
 
-                &:active
-                    cursor: grabbing
+                &::-webkit-scrollbar
+                    height: 2.5rem
 
-            li
-                &:nth-of-type(1) article
-                    background: #4567AF
-                &:nth-of-type(2) article
-                    background: #74368B
-                &:nth-of-type(3) article
-                    background: #059EA0
-                &:nth-of-type(4) article
-                    background: #DE912C
-                &:nth-of-type(5) article
-                    background: #1A4FD5
-                &:nth-of-type(6) article
-                    background: #74368B
-                &:nth-of-type(7) article
-                    background: #E7242C
-                &:nth-of-type(8) article
-                    background: #059EA0
+                &::-webkit-scrollbar-thumb
+                    background-color: rgba(black, .3)
+                    border-radius: 100rem
+                    border: solid 1rem $color-background
 
-                article
-                    width: calc((var(--column-width) * 6) + var(--grid-gutter) * (6 - 1) - 6px)
-                    max-width: 30rem
-                    height: 100%
-                    padding: 1rem
-                    border-radius: .5rem
-                    font-size: 16px
-                    display: flex
-                    flex-direction: row
-                    gap: 1rem
+                    &:hover
+                        background-color: rgba(black, .5)
 
-                    & *
-                        color: white
-                        line-height: 115%
+                & *
+                    user-drag: none
+                    -webkit-user-drag: none
+                    user-select: none
 
-                    h3
+                    &:active
+                        cursor: grabbing
+
+                li
+                    &:nth-of-type(1) article
+                        background: #4567AF
+                    &:nth-of-type(2) article
+                        background: #74368B
+                    &:nth-of-type(3) article
+                        background: #059EA0
+                    &:nth-of-type(4) article
+                        background: #DE912C
+                    &:nth-of-type(5) article
+                        background: #1A4FD5
+                    &:nth-of-type(6) article
+                        background: #74368B
+                    &:nth-of-type(7) article
+                        background: #E7242C
+                    &:nth-of-type(8) article
+                        background: #059EA0
+
+                    article
+                        width: calc((var(--column-width) * 6) + var(--grid-gutter) * (6 - 1) - 6px)
+                        max-width: 30rem
+                        height: 100%
+                        padding: 1rem
+                        border-radius: .5rem
                         font-size: 16px
-                        font-weight: bold
-
-                        a::after
-                            position: absolute
-                            right: 1rem
-                            bottom: .5rem
-
-                    .media
-                        margin: unset
                         display: flex
-                        align-items: center
+                        flex-direction: row
+                        gap: 1rem
 
-                        img
-                            height: 7rem
-                            object-fit: contain
+                        & *
+                            color: white
+                            line-height: 115%
 
-    .block-class-les-videos-par-territoire
-        background: $color-background-alt
-        padding: 2rem 0
-        margin: unset
+                        h3
+                            font-size: 16px
+                            font-weight: bold
 
-        ul
-            grid-template-columns: repeat(5, 1fr)
+                            a::after
+                                position: absolute
+                                right: 1rem
+                                bottom: .5rem
 
-            li article
+                        .media
+                            margin: unset
+                            display: flex
+                            align-items: center
+
+                            img
+                                height: 7rem
+                                object-fit: contain
+
+        .block-class-les-videos-par-territoire
+            background: $color-background-alt
+            padding: 2rem 0
+            margin: unset
+
+            ul
+                grid-template-columns: repeat(5, 1fr)
+
+                li article
                 height: 100%
                 padding-bottom: 2rem
 
                 img
                     aspect-ratio: unset
 
-            li:nth-of-type(1):hover article
-                background: #FF3E46
+                li:nth-of-type(1):hover article
+                    background: #FF3E46
 
-                img
-                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
-                    transform: translateX(-100rem)
+                    img
+                        filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                        transform: translateX(-100rem)
 
-            li:nth-of-type(2):hover article
-                background: #FFC364
+                li:nth-of-type(2):hover article
+                    background: #FFC364
 
-                img
-                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
-                    transform: translateX(-100rem)
+                    img
+                        filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                        transform: translateX(-100rem)
 
-            li:nth-of-type(3):hover article
-                background: #346FFF
+                li:nth-of-type(3):hover article
+                    background: #346FFF
 
-                img
-                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
-                    transform: translateX(-100rem)
+                    img
+                        filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                        transform: translateX(-100rem)
 
-            li:nth-of-type(4):hover article
-                background: #C559CB
+                li:nth-of-type(4):hover article
+                    background: #C559CB
 
-                img
-                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
-                    transform: translateX(-100rem)
+                    img
+                        filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                        transform: translateX(-100rem)
 
-            li:nth-of-type(5):hover article
-                background: #46C7C8
+                li:nth-of-type(5):hover article
+                    background: #46C7C8
 
-                img
-                    filter: drop-shadow(100rem 0 0 rgba(white, .9))
-                    transform: translateX(-100rem)
+                    img
+                        filter: drop-shadow(100rem 0 0 rgba(white, .9))
+                        transform: translateX(-100rem)
 
-    .block-class-qu-est-ce-que-la-plateforme
-        position: relative
-        margin-top: 8rem
-        padding: 8rem 0 12rem
+        .block-class-qu-est-ce-que-la-plateforme
+            position: relative
+            margin-top: 8rem
+            padding: 8rem 0 12rem
 
-        p
-            font-size: $body-size
+            p
+                font-size: $body-size
 
-
-        .chapter .text
-            width: unset
-            max-width: 60rem
-
-            h2
-                font-weight: bold
-                color: $color-text-alt
-
-    .block-class-comment-l-utiliser
-        padding: 8rem 0 10rem
-
-        li, b
-            font-size: $body-size
-
-        & *
-            color: $color-text
-
-        .chapter
-            flex-direction: row-reverse
-            gap: var(--grid-gutter)
-
-            figure
-                width: calc((var(--column-width) * 5) + var(--grid-gutter) * (5 - 1) - 5px)
-                max-width: 30rem
-
-                img
-                    width: 100%
-
-            .text
-                flex: 1
+            .chapter .text
+                width: unset
+                max-width: 60rem
 
                 h2
                     font-weight: bold
+                    color: $color-text-alt
 
-    .block-class-qui-sommes-nous
-        padding-top: 8rem
-        padding-bottom: 0
+        .block-class-comment-l-utiliser
+            padding: 8rem 0 10rem
 
-        p
-            font-size: $body-size
+            li, b
+                font-size: $body-size
 
-        .chapter .text
-            width: unset
-            max-width: 60rem
+            & *
+                color: $color-text
 
-            h2
-                font-weight: bold
-                color: $color-text-alt
+            .chapter
+                flex-direction: row-reverse
+                gap: var(--grid-gutter)
 
-    .block-class-lien-vers-l-offre-de-formation-des-trois-universites
-        margin: unset
-        padding-bottom: 10rem
-        background: $color-background-alt
+                figure
+                    width: calc((var(--column-width) * 5) + var(--grid-gutter) * (5 - 1) - 5px)
+                    max-width: 30rem
 
-        .top
-            display: none
+                    img
+                        width: 100%
 
-        ul article .media
+                .text
+                    flex: 1
+
+                    h2
+                        font-weight: bold
+
+        .block-class-qui-sommes-nous
+            padding-top: 8rem
+            padding-bottom: 0
+
+            p
+                font-size: $body-size
+
+            .chapter .text
+                width: unset
+                max-width: 60rem
+
+                h2
+                    font-weight: bold
+                    color: $color-text-alt
+
+        .block-class-lien-vers-l-offre-de-formation-des-trois-universites
             margin: unset
-            padding: unset
+            padding-bottom: 10rem
+            background: $color-background-alt
 
-            picture
-                aspect-ratio: 2
-                display: flex
-                align-items: center
+            .top
+                display: none
 
-                img
-                    height: fit-content
+            ul article .media
+                margin: unset
+                padding: unset
 
-    // FILIGRANE 180S DERRIERE LES TEXTES
-    .block-class-qu-est-ce-que-la-plateforme, .block-class-qui-sommes-nous, .block-class-lien-vers-l-offre-de-formation-des-trois-universites
-        clip-path: inset(0)
+                picture
+                    aspect-ratio: 2
+                    display: flex
+                    align-items: center
 
-        &::after
-            position: fixed
-            display: block
-            content: ""
-            background-image: url('/assets/images/filigrane-180s.svg')
-            background-size: cover
-            background-position: center
-            width: calc((var(--column-width) * 6) + var(--grid-gutter) * (6 - 1) - 6px)
-            aspect-ratio: 10 / 7
-            top: 50%
-            right: 0
-            transform: translateY(-50%)
-            object-fit: cover
-            object-fit: contain
+                    img
+                        height: fit-content
 
-        .chapter .text, .organizations li
-            z-index: 1
+        // FILIGRANE 180S DERRIERE LES TEXTES
+        .block-class-qu-est-ce-que-la-plateforme, .block-class-qui-sommes-nous, .block-class-lien-vers-l-offre-de-formation-des-trois-universites
+            clip-path: inset(0)
+
+            &::after
+                position: fixed
+                display: block
+                content: ""
+                background-image: url('/assets/images/filigrane-180s.svg')
+                background-size: cover
+                background-position: center
+                width: calc((var(--column-width) * 6) + var(--grid-gutter) * (6 - 1) - 6px)
+                aspect-ratio: 10 / 7
+                top: 50%
+                right: 0
+                transform: translateY(-50%)
+                object-fit: cover
+                object-fit: contain
+
+            .chapter .text, .organizations li
+                z-index: 1

@@ -1,60 +1,96 @@
-body.pages__section
-    .block-video--player
-        background: none !important
+body.pages__section main
+    header
+        min-height: unset
+        padding-bottom: unset
 
-    #block-video-title-0
+        .container nav.breadcrumb-nav
+            margin-top: 4rem
+
+            ol
+                height: unset
+
+        .container .content
+            display: none
+
+    .document-content .taxonomies-container
         display: none
 
-    .taxonomies-container
-        display: none
+    .document-content .blocks
+        .block-class-melina-chercheuse-en-geochimie-et-ecotoxicologie
+            background: unset
+            margin-top: 3rem
+            margin-bottom: unset
 
-    .block-class-video-content-selector img
-        max-width: 100% !important
+            .block-content
+                padding-top: unset
+                padding-bottom: 6rem
+                border-bottom: solid 1px #e5e5e5
 
-    .block-class-video-content-selector li
-        display: inherit !important
-        background-color: $color-background-alt
-        padding: 1rem
+                #block-video-title-0
+                    display: none
 
-    .block-class-video-content-selector .selected
-        background-color: $color-hover
+                .top
+                    margin-bottom: 1rem
 
-    .block-class-video-content-selector li:hover
-        background-color: $color-hover
-        cursor: pointer
+                    h2
+                        font-size: 20px
+                        font-weight: bold
 
-    .lightbox-figure
-        display: none
+                    .description
+                        font-size: 16px
+                        margin: unset
 
-    .block-key_figures
-        background-color: $color-background-alt
-        padding-top: 2rem
-        padding-bottom: 2rem
+                .video
+                    border-radius: 1rem
+                    overflow: hidden
 
-    .block-key_figures .key-figure-text span
-        color: $color-accent
+        .block-class-video-content-selector img
+            max-width: 100%
 
-    // chapters.push(document.getElementsByClassName("block-class-video-metier")[0]); //0
-    // chapters.push(document.getElementsByClassName("block-class-video-parcours")[0]); //1
-    // chapters.push(document.getElementsByClassName("block-class-video-links")[0]); //2
+        .block-class-video-content-selector li
+            display: inherit
+            background-color: $color-background-alt
+            padding: 1rem
 
-    .selected
-        display: inherit !important
+        .block-class-video-content-selector .selected
+            background-color: $color-hover
 
-    .block-class-video-metier
-        display: none
+        .block-class-video-content-selector li:hover
+            background-color: $color-hover
+            cursor: pointer
 
-    .block-class-video-parcours
-        display: none
+        .lightbox-figure
+            display: none
 
-    .block-class-video-parcours .chapter
-        display: flex
-        flex-direction: column !important
-        gap: 2rem
+        .block-key_figures
+            background-color: $color-background-alt
+            padding-top: 2rem
+            padding-bottom: 2rem
 
-    .block-class-video-parcours figure
-        display: inherit !important
-        width: 100% !important
+        .block-key_figures .key-figure-text span
+            color: $color-accent
 
-    .block-class-video-links
-        display: none
+        // chapters.push(document.getElementsByClassName("block-class-video-metier")[0]); //0
+        // chapters.push(document.getElementsByClassName("block-class-video-parcours")[0]); //1
+        // chapters.push(document.getElementsByClassName("block-class-video-links")[0]); //2
+
+        .selected
+            display: inherit
+
+        .block-class-video-metier
+            display: none
+
+        .block-class-video-parcours
+            display: none
+
+        .block-class-video-parcours .chapter
+            display: flex
+            flex-direction: column
+            gap: 2rem
+
+        .block-class-video-parcours figure
+            display: inherit
+            width: 100%
+
+        .block-class-video-links
+            display: none
