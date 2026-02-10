@@ -44,53 +44,39 @@ body.pages__section main
                     border-radius: 1rem
                     overflow: hidden
 
-        .block-class-video-content-selector img
-            max-width: 100%
-
-        .block-class-video-content-selector li
-            display: inherit
-            background-color: $color-background-alt
-            padding: 1rem
-
-        .block-class-video-content-selector .selected
-            background-color: $color-hover
-
-        .block-class-video-content-selector li:hover
-            background-color: $color-hover
-            cursor: pointer
-
-        .lightbox-figure
+        .block-class-voir-plus-de-videos-sur-le-sujet
             display: none
 
-        .block-key_figures
-            background-color: $color-background-alt
-            padding-top: 2rem
-            padding-bottom: 2rem
+        .block-class-explorer-le-parcours-de-melina
+            margin-bottom: 2rem
 
-        .block-key_figures .key-figure-text span
-            color: $color-accent
+            img
+                max-width: 10rem
+                margin: auto auto
 
-        // chapters.push(document.getElementsByClassName("block-class-video-metier")[0]); //0
-        // chapters.push(document.getElementsByClassName("block-class-video-parcours")[0]); //1
-        // chapters.push(document.getElementsByClassName("block-class-video-links")[0]); //2
+            li
+                display: inherit
+                background-color: $color-background-alt
+                padding: 1rem
 
-        .selected
-            display: inherit
+                &:hover
+                    background-color: $color-hover
+                    cursor: pointer
 
-        .block-class-video-metier
+                &.selected
+                    background-color: $color-hover
+
+        .block-class-le-metier-de-melina-chercheuse-en-geochimie-et-ecotoxicologie
+            // background: red
+
+        .block-class-les-competences-a-s-orienter
             display: none
 
-        .block-class-video-parcours
-            display: none
+        .block-class-les-chiffres-cles-de-la-video
+            margin-top: 6rem
+            margin-bottom: unset
+            background: $color-background-alt
+            padding: 2rem 0
 
-        .block-class-video-parcours .chapter
-            display: flex
-            flex-direction: column
-            gap: 2rem
-
-        .block-class-video-parcours figure
-            display: inherit
-            width: 100%
-
-        .block-class-video-links
-            display: none
+            ul span
+                color: $color-accent
