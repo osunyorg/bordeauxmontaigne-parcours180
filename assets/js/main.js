@@ -1,4 +1,11 @@
 import "./theme/";
-// import "./video.js"; // code de loic
-import "./explorerLeParcours";
-import "./grabToScroll.js";
+
+// HOMEPAGE
+if (window.location.pathname === "/") {
+    import("./grabToScroll");
+};
+
+// PAGE VIDEO
+if (window.location.pathname === "/video/") {
+    import("./pageVideo/main.js");
+};

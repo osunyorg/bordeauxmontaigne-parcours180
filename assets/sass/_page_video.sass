@@ -47,7 +47,8 @@ body.pages__section main
         .block-class-voir-plus-de-videos-sur-le-sujet
             display: none
 
-        .block-class-explorer-le-parcours-de-melina
+        // EXPLORER SON PARCOURS
+        .block-class-explorer-son-parcours
             margin-bottom: 2rem
 
             img
@@ -66,12 +67,89 @@ body.pages__section main
                 &.selected
                     background-color: $color-hover
 
-        .block-class-le-metier-de-melina-chercheuse-en-geochimie-et-ecotoxicologie
-            // background: red
+                &:active
+                    background-color: $color-background-alt
 
+        .block-class-le-parcours-universitaire,
+        .block-class-son-metier,
         .block-class-les-competences-a-s-orienter
             display: none
 
+        .block-class-le-parcours-universitaire
+            .chapter
+                flex-direction: column
+                gap: 2rem
+
+                .text
+                    width: unset
+
+                figure
+                    width: 100%
+
+        .block-class-son-metier
+            .text
+                width: unset
+        
+        .block-class-les-competences-a-s-orienter
+            padding-top: 5rem
+            padding-bottom: 5rem
+            margin: unset
+
+            ul
+                grid-template-columns: repeat(2, 1fr);
+
+                li
+                    &:nth-of-type(1) article
+                        background: #4567AF
+                    &:nth-of-type(2) article
+                        background: #74368B
+                    &:nth-of-type(3) article
+                        background: #059EA0
+                    &:nth-of-type(4) article
+                        background: #DE912C
+                    &:nth-of-type(5) article
+                        background: #1A4FD5
+                    &:nth-of-type(6) article
+                        background: #74368B
+                    &:nth-of-type(7) article
+                        background: #E7242C
+                    &:nth-of-type(8) article
+                        background: #059EA0
+
+                    article
+                        // width: calc((var(--column-width) * 6) + var(--grid-gutter) * (6 - 1) - 6px)
+                        // max-width: 30rem
+                        height: 100%
+                        padding: 1rem
+                        border-radius: .5rem
+                        font-size: 16px
+                        display: flex
+                        flex-direction: row
+                        gap: 1rem
+
+                        & *
+                            color: white
+                            line-height: 115%
+
+                        h3
+                            font-size: 16px
+                            font-weight: bold
+
+                            a::after
+                                position: absolute
+                                right: 1rem
+                                bottom: .5rem
+
+                        .media
+                            margin: unset
+                            display: flex
+                            align-items: center
+
+                            img
+                                height: 7rem
+                                object-fit: contain
+
+        // CHIFFRES CLES
         .block-class-les-chiffres-cles-de-la-video
             margin-top: 6rem
             margin-bottom: unset
