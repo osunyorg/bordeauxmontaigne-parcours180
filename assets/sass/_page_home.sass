@@ -46,6 +46,9 @@ body.page__home
             margin-bottom: unset
             padding: 2rem 0
 
+            figure
+                padding-left: calc(calc(var(--grid-gutter) * (4 - 1)) + var(--grid-gutter))
+
             & *
                 color: black
 
@@ -142,12 +145,35 @@ body.page__home
             padding: 2rem 0
             margin: unset
 
+            a
+                font-size: $body-2-size
+
+            .category-content
+                justify-content: space-between
+
+            .media
+                margin: 0
+
+            .articles-count
+                display: none
+
+            .meta
+                padding: 0
+                // margin: 0
+                margin-top: 32px
+
+            //     display: none
+
+
             ul
                 grid-template-columns: repeat(5, 1fr)
 
+                li
+                    text-align: center
+
                 li article
-                height: 100%
-                padding-bottom: 2rem
+                    height: 100%
+                    padding-bottom: 2rem
 
                 img
                     aspect-ratio: unset
@@ -206,6 +232,10 @@ body.page__home
         .block-class-comment-l-utiliser
             padding: 8rem 0 10rem
 
+            img
+                max-height: 532px
+                object-fit: cover
+
             li, b
                 font-size: $body-size
 
@@ -248,6 +278,17 @@ body.page__home
             margin: unset
             padding-bottom: 10rem
             background: $color-background-alt
+            padding-top: 64px
+
+            li
+                background-color: $color-primary-medium
+                border-radius: 8px
+                padding: 16px
+                width: calc((var(--column-width) * 4))
+                transition: background-color .25s
+
+                &:hover
+                    background-color: #EDCB7B
 
             .top
                 display: none
@@ -255,6 +296,7 @@ body.page__home
             ul article .media
                 margin: unset
                 padding: unset
+                background: none
 
                 picture
                     aspect-ratio: 2
