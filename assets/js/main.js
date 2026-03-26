@@ -2,7 +2,7 @@ import "./theme/";
 
 // HOMEPAGE
 if (window.location.pathname === "/") {
-    import("./grabToScroll");
+    import("./home/grabToScroll");
 };
 
 // PAGE VIDEO
