@@ -2,6 +2,7 @@ import "./theme/";
 
 // HOMEPAGE
 if (window.location.pathname === "/") {
+    import("./home/sliderContent")
     import("./home/grabToScroll");
 };
 
