@@ -1,0 +1,32 @@
+{
+  "melina-chercheuse-en-geochimie-et-ecotoxicologie": {
+    "titre": "Mélina, chercheuse en géochimie et écotoxicologie",
+    "prenom": "Mélina",
+    "phraseCle": "Le vrai déclic a été d’aller à l’université pour voir les possibilités qui s’offraient à moi.",
+    "metier": "chercheuse en géochimie et écotoxicologie",
+    "urlDeLaVideo": "https://pod.u-bordeaux-montaigne.fr/video/2302-mon-parcours-en-180s-acces-melina/?is_iframe=true",
+    "competencesASorienter": "Remettre en question les idées reçues sur l'orientation., Avancer dans ses choix., Prendre confiance en soi et passer à l'action.",
+    "tagVideos": "Mobilité, Séjour d'études à l'étranger, Ambition/autocensure, Stéréotypes et déterminismes",
+    "territoire": 33
+  },
+  "romane-opticienne-lunetiere": {
+    "titre": "Romane, opticienne lunetière",
+    "prenom": "Romane",
+    "phraseCle": "J’ai dit à ma mère que je ne ferai pas de lycée général comme ma sœur, c’était pas possible.",
+    "metier": "opticienne lunetière",
+    "urlDeLaVideo": "https://pod.u-bordeaux-montaigne.fr/video/2303-mon-parcours-en-180s-acces-romane/?is_iframe=true",
+    "competencesASorienter": "Remettre en question les idées reçues sur l'orientation., Identifier ses atouts et dépasser les contraintes.",
+    "tagVideos": "Alternance, Décision/choix d'orientation, Transition secondaire/supérieur, Vécu étudiant, Stéréotypes et déterminismes",
+    "territoire": 33
+  },
+  "bastien-opticien-lunetier": {
+    "titre": "Bastien, opticien lunetier",
+    "prenom": "Bastien",
+    "phraseCle": "Je me suis dit j’y vais sans forcément savoir où ça va m’emmener.",
+    "metier": "opticien lunetier",
+    "urlDeLaVideo": "https://pod.u-bordeaux-montaigne.fr/video/2305-mon-parcours-en-180s-acces-bastien/?is_iframe=true",
+    "competencesASorienter": "Prendre confiance en soi et passer à l'action., Mobiliser les ressources autour de soi.",
+    "tagVideos": "Alternance, Stages, Ambition/autocensure, Décision/choix d'orientation, Transition secondaire/supérieur",
+    "territoire": 33
+  }
+}

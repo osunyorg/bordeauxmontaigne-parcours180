@@ -7,7 +7,9 @@
     "urlDeLaVideo": "https://pod.u-bordeaux-montaigne.fr/video/2302-mon-parcours-en-180s-acces-melina/?is_iframe=true",
     "competencesASorienter": "Remettre en question les idées reçues sur l'orientation., Avancer dans ses choix., Prendre confiance en soi et passer à l'action.",
     "tagVideos": "Mobilité, Séjour d'études à l'étranger, Ambition/autocensure, Stéréotypes et déterminismes",
-    "territoire": 33
+    "territoire": 33,
+    "retracerParcours": "<ul><li>Mélina obtient un baccalauréat général scientifique au lycée Elie Faure à Lormont (33).</li><li>Après le bac, elle s'inscrit en classe préparatoire aux grandes écoles (CPGE) au lycée Montaigne à Bordeaux. Elle valide sa première année de CPGE mais choisit de ne pas poursuivre en deuxième année.</li><li>Grâce à une passerelle, Mélina intègre directement une deuxième année de licence de biologie des organismes et des écosystèmes à l'université de Bordeaux.</li><li>À l’issue de la licence, elle poursuit dans la même université en master d'océanographie, parcours Marine Environment and Resources, qui lui permet de faire plusieurs semestres à l'étranger.</li><li>À la suite de ce master, Mélina s’engage dans un doctorat.</li></ul>",
+    "decouvrirMetier": "<p>Chercheuse en géochimie et écotoxicologie</p><p>Mélina est chercheuse junior en géochimie et écotoxicologie. Il s’agit d’une application du poste de chercheuse dans le domaine de la chimie. Elle exerce son emploi au sein d’un centre de recherche scientifique, dans une station marine.</p><p>Mélina étudie la pollution des milieux aquatiques. Concrètement, elle participe à des missions océanographiques sur des bateaux pour échantillonner de l'eau, des sédiments et des organismes marins. À son retour, elle fait des expérimentations en laboratoire. Par exemple, elle va exposer des huîtres à certaines concentrations de métaux pour examiner les effets toxiques.</p>"
   },
   "romane-opticienne-lunetiere": {
     "titre": "Romane, opticienne lunetière",
@@ -17,7 +19,9 @@
     "urlDeLaVideo": "https://pod.u-bordeaux-montaigne.fr/video/2303-mon-parcours-en-180s-acces-romane/?is_iframe=true",
     "competencesASorienter": "Remettre en question les idées reçues sur l'orientation., Identifier ses atouts et dépasser les contraintes.",
     "tagVideos": "Alternance, Décision/choix d'orientation, Transition secondaire/supérieur, Vécu étudiant, Stéréotypes et déterminismes",
-    "territoire": 33
+    "territoire": 33,
+    "retracerParcours": "<ul><li>Romane obtient un baccalauréat professionnel optique lunetterie, au lycée Jacques Brel à Lormont (33).</li><li>Après le bac, elle poursuit sa formation en BTS opticien·ne lunetier·ère dans le même établissement, en alternance. Elle obtient son diplôme en trois ans, après un premier passage non validé à l’examen, Romane se représente l’année suivante et obtient le diplôme.</li><li>Le parcours en alternance permet à Romane de développer une expérience professionnelle concrète et de se projeter progressivement dans le métier.</li></ul>",
+    "decouvrirMetier": "<p>Opticienne lunetière</p><p>Romane est opticienne lunetière. Il s’agit d’une application du poste d’opticienne dans le domaine du commerce spécialisé et de la santé visuelle. Elle exerce son emploi dans le secteur privé, en magasin d’optique.</p><p>Son métier est de vendre des lunettes à des client·es. Elle a pris son poste il y a un peu plus d'un an. Elle explique que maintenant elle gère tout dans le magasin : les examens de vue, les stocks, le tiers payant, les règlements et le suivi des comptes.</p>"
   },
   "bastien-opticien-lunetier": {
     "titre": "Bastien, opticien lunetier",
@@ -27,6 +31,8 @@
     "urlDeLaVideo": "https://pod.u-bordeaux-montaigne.fr/video/2305-mon-parcours-en-180s-acces-bastien/?is_iframe=true",
     "competencesASorienter": "Prendre confiance en soi et passer à l'action., Mobiliser les ressources autour de soi.",
     "tagVideos": "Alternance, Stages, Ambition/autocensure, Décision/choix d'orientation, Transition secondaire/supérieur",
-    "territoire": 33
+    "territoire": 33,
+    "retracerParcours": "<ul><li>Bastien obtient un baccalauréat professionnel optique lunetterie, au lycée Jacques Brel à Lormont (33), spécialité découverte à la suite d’un stage effectué après la classe de seconde générale.</li><li>Après le bac, il poursuit sa formation dans le même établissement en BTS opticien·ne lunetier·ère.</li><li>Au cours de son cursus de baccalauréat professionnel, Bastien réalise un pince-nez japonais et participe au concours des Meilleur·es Apprenti·es de France, où il obtient une médaille d’or aux niveaux départemental, régional et national.</li></ul>",
+    "decouvrirMetier": "<p>Opticien lunetier</p><p>Bastien exerce le métier d'opticien lunetier. Il s’agit d’une application du poste d’opticien dans le domaine du commerce spécialisé et de la santé visuelle. Il exerce son emploi dans le secteur privé, en magasin d’optique.</p><p>La mission principale de son poste est de conseiller les client·es. Une fois le choix de l'équipement effectué, il passe les commandes. À la réception des verres, il les installe sur la monture, assure la livraison et le suivi du client.</p>"
   }
 }

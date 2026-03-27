@@ -22,8 +22,14 @@ async function buildPage() {
         document.querySelector(".block-class-explorer-son-parcours h2").textContent = `Explorer le parcours de ${pageData.prenom}`;
         document.querySelector(".block-class-explorer-son-parcours li:nth-of-type(1) h3").textContent = `Retracer le parcours de ${pageData.prenom}`;
         document.querySelector(".block-class-explorer-son-parcours li:nth-of-type(2) h3").textContent = `Découvrir le métier de ${pageData.prenom} : ${pageData.metier}`;
+
         document.querySelector(".block-class-le-parcours-universitaire h2").textContent = `Le parcours universitaire de ${pageData.prenom}`;
+        document.querySelector(".block-class-le-parcours-universitaire div.rich-text").innerHTML = pageData.retracerParcours;
+        document.querySelectorAll('.block-class-le-parcours-universitaire picture source')
+            .forEach(s => s.srcset = `/db-images/${pageData.prenom}.png`);
+
         document.querySelector(".block-class-son-metier h2").textContent = `Le métier de ${pageData.prenom} : ${pageData.metier}`;
+        document.querySelector(".block-class-son-metier div.rich-text").innerHTML = pageData.decouvrirMetier;
 
         // --- INITIALISATION DE L'UI ---
         applyColors();
