@@ -9,6 +9,9 @@ body.pages__section main
             ol
                 height: unset
 
+                li:last-child span
+                    text-decoration: underline
+
         .container .content
             display: none
 
@@ -33,7 +36,7 @@ body.pages__section main
                     margin-bottom: 1rem
 
                     h2
-                        font-size: 20px
+                        font-size: 24px
                         font-weight: bold
 
                     .description
@@ -43,6 +46,9 @@ body.pages__section main
                 .video
                     border-radius: 1rem
                     overflow: hidden
+
+                & > p
+                    display: none
 
         .block-class-voir-plus-de-videos-sur-le-sujet
             display: none
@@ -57,8 +63,9 @@ body.pages__section main
 
             li
                 display: inherit
+                padding: 1rem 2rem
+                border-radius: .5rem
                 background-color: $color-background-alt
-                padding: 1rem
 
                 &:hover
                     background-color: $color-hover
@@ -69,6 +76,16 @@ body.pages__section main
 
                 &:active
                     background-color: $color-background-alt
+
+                figure
+                    margin-bottom: .5rem
+
+                picture
+                    padding: unset
+
+                h3
+                    margin: unset
+                    font-size: 16px
 
         .block-class-le-parcours-universitaire,
         .block-class-son-metier,
@@ -83,8 +100,18 @@ body.pages__section main
                 .text
                     width: unset
 
+                    li
+                        margin-bottom: .5rem
+
+                        &:last-child
+                            margin: unset
+
                 figure
                     width: 100%
+            
+            img
+                margin: unset
+                width: 100%
 
         .block-class-son-metier
             .text

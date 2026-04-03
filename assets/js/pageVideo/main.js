@@ -14,6 +14,7 @@ async function buildPage() {
 
         // --- MISE À JOUR DU CONTENU DE LA PAGE ---
         document.title = `${pageData.titre} | Mons parcours en 180s`;
+        document.querySelector(".has-breadcrumb-hero-start .breadcrumb-nav ol li:last-child span").textContent = pageData.titre;
         // Section vidéo
         document.querySelector(".block-class-melina-chercheuse-en-geochimie-et-ecotoxicologie h2").textContent = pageData.titre;
         document.querySelector(".block-class-melina-chercheuse-en-geochimie-et-ecotoxicologie .description p").textContent = `« ${pageData.phraseCle} »`;
