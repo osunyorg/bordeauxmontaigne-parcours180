@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="partenaires-logo">
+        <img src="/images/partenaires.png" alt="">
+    </div>
+  <div class="footer-site">
+    {{ partial "footer/site.html" }}
+  </div>
+</div>
+
+<div class="container">
+  <div class="footer-legals">
+    {{ partial "footer/legals.html" . }}
+    {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
+      <div class="footer-search">
+        {{ partial "commons/search/button.html" "footer" }}
+      </div>
+    {{ end }}
+    {{ partial "footer/credit.html" . }}
+  </div>
+    <div class="footer-logo">
+    {{ partial "footer/logo.html" }}
+  </div>
+</div>
