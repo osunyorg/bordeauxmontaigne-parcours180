@@ -3,25 +3,31 @@ title: Menu principal
 items:
 - title: Accéder aux vidéos
   slug: acceder-aux-videos
-  target: "#acceder-aux-videos-de-temoignages"
-  kind: url
+  target: "/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
+  path: "/"
+  file: content/fr/_index.html
 - title: Un outil d’orientation
   slug: un-outil-d-orientation
-  target: "#un-outil-d-orientation"
-  kind: url
+  target: "/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
+  path: "/"
+  file: content/fr/_index.html
 - title: Guide d’utilisation
   slug: guide-d-utilisation
-  target: "#guide-d-utilisation"
-  kind: url
+  target: "/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
+  path: "/"
+  file: content/fr/_index.html
 - title: Qui sommes-nous ?
   slug: qui-sommes-nous
   target: "#qui-sommes-nous"
