@@ -243,10 +243,6 @@ body.page__home
         .block-class-comment-l-utiliser
             padding: 8rem 0 10rem
 
-            img
-                max-height: 532px
-                object-fit: cover
-
             li, b
                 font-size: $body-size
 
@@ -261,8 +257,13 @@ body.page__home
                     width: calc((var(--column-width) * 5) + var(--grid-gutter) * (5 - 1) - 5px)
                     max-width: 30rem
 
+                    div, picture
+                        height: 100%
+
                     img
                         width: 100%
+                        height: 100%
+                        object-fit: cover
 
                 .text
                     flex: 1
