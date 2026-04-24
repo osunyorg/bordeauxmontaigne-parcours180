@@ -15,42 +15,42 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/melina-chercheuse-en-agrochimie-3/"
+from = "/melina-chercheuse-en-agrochimie-3/index.html"
 to = "/les-videos/video/"
 
 [[redirects]]
-from = "/avancer-dans-ses-choix/"
+from = "/avancer-dans-ses-choix/index.html"
 to = "/les-competences-a-sorienter/avancer-dans-ses-choix/"
 
 [[redirects]]
-from = "/pyrenees-atlantiques/"
+from = "/pyrenees-atlantiques/index.html"
 to = "/territoires/pyrenees-atlantiques/"
 
 [[redirects]]
-from = "/stages/"
+from = "/stages/index.html"
 to = "/tags-videos/stages/"
 
 [[redirects]]
-from = "/melina-chercheuse-en-agrochimie/"
+from = "/melina-chercheuse-en-agrochimie/index.html"
 to = "/les-videos/video/"
 
 [[redirects]]
-from = "/landes/"
+from = "/landes/index.html"
 to = "/territoires/landes/"
 
 [[redirects]]
-from = "/romane-opticienne-vendeuse/"
+from = "/romane-opticienne-vendeuse/index.html"
 to = "/les-videos/romane-opticienne-vendeuse/"
 
 [[redirects]]
-from = "/lot-et-garonne/"
+from = "/lot-et-garonne/index.html"
 to = "/territoires/lot-et-garonne/"
 
 [[redirects]]
-from = "/archives-expositions/"
+from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
-from = "/video/"
+from = "/video/index.html"
 to = "/les-videos/video/"
 
