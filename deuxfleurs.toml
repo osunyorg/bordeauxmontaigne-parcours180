@@ -14,3 +14,51 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
 
+[[redirects]]
+from = "/melina-chercheuse-en-agrochimie-3/index.html"
+to = "/les-videos/video/"
+
+[[redirects]]
+from = "/avancer-dans-ses-choix/index.html"
+to = "/les-competences-a-sorienter/avancer-dans-ses-choix/"
+
+[[redirects]]
+from = "/pyrenees-atlantiques/index.html"
+to = "/territoires/pyrenees-atlantiques/"
+
+[[redirects]]
+from = "/stages/index.html"
+to = "/tags-videos/stages/"
+
+[[redirects]]
+from = "/melina-chercheuse-en-agrochimie/index.html"
+to = "/les-videos/video/"
+
+[[redirects]]
+from = "/landes/index.html"
+to = "/territoires/landes/"
+
+[[redirects]]
+from = "/romane-opticienne-vendeuse/index.html"
+to = "/les-videos/romane-opticienne-vendeuse/"
+
+[[redirects]]
+from = "/melina-chercheuse-en-geochimie-et-ecotoxicologie/index.html"
+to = "/les-videos/melina-chercheuse-en-geochimie-et-ecotoxicologie/"
+
+[[redirects]]
+from = "/lot-et-garonne/index.html"
+to = "/territoires/lot-et-garonne/"
+
+[[redirects]]
+from = "/les-videos/melina-video-1/index.html"
+to = "/les-videos/melina-chercheuse-en-geochimie-et-ecotoxicologie/"
+
+[[redirects]]
+from = "/archives-expositions/index.html"
+to = "/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/video/index.html"
+to = "/les-videos/video/"
+
