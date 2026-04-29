@@ -183,13 +183,21 @@ body.pages__section main
             background: $color-background-alt
             padding: 2rem 0
 
-            ul span
-                color: $color-accent
-            
-            li.with-image
-                img
-                    max-width: 10rem
-                    margin: unset
+            ul
+                span
+                    color: $color-accent
 
-                & > div
-                    display: none
+                li
+                    height: 100%
+                    display: flex
+                    align-items: center
+            
+                li.with-image
+                    display: inline
+
+                    img
+                        max-width: 10rem
+                        margin: unset
+
+                    & > div
+                        display: none
