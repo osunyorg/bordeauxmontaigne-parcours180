@@ -1,1 +1,36 @@
 body.pages_categories__term
+    main
+        header
+            .content
+                flex-direction: row-reverse
+                align-items: center
+
+
+                .hero-text
+                    h1
+                        color: $color-background
+
+                        span
+                            color: #1A4FD5
+
+                    p
+                        color: #606060
+
+        div.document-content
+
+            & > div.container
+                margin-top: 1rem
+
+                ul
+                    grid-template-columns: repeat(4, 1fr)
+
+                article
+                    .page-content
+                        hgroup p
+                            display: none
+
+                        & > div
+                            display: none
+
+                    .media
+                        border-radius: 0.5rem
