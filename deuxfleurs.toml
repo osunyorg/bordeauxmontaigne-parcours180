@@ -55,6 +55,10 @@ from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
+from = "/les-videos/sylvain-journaliste-pigiste-1/index.html"
+to = "/les-videos/anna-graphiste-illustratrice-operatice-pao/"
+
+[[redirects]]
 from = "/les-videos/romane-opticienne-lunetiere-1/index.html"
 to = "/les-videos/romane-opticienne/"
 
