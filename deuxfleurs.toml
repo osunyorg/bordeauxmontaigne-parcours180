@@ -39,10 +39,6 @@ from = "/landes/index.html"
 to = "/territoires/landes/"
 
 [[redirects]]
-from = "/romane-opticienne-vendeuse/index.html"
-to = "/les-videos/romane-opticienne-vendeuse/"
-
-[[redirects]]
 from = "/melina-chercheuse-en-geochimie-et-ecotoxicologie/index.html"
 to = "/les-videos/melina-chercheuse-en-geochimie-et-ecotoxicologie/"
 
@@ -57,6 +53,10 @@ to = "/les-videos/melina-chercheuse-en-geochimie-et-ecotoxicologie/"
 [[redirects]]
 from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/les-videos/romane-opticienne-lunetiere-1/index.html"
+to = "/les-videos/romane-opticienne/"
 
 [[redirects]]
 from = "/video/index.html"
