@@ -15,10 +15,6 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/melina-chercheuse-en-agrochimie-3/index.html"
-to = "/les-videos/video/"
-
-[[redirects]]
 from = "/avancer-dans-ses-choix/index.html"
 to = "/les-competences-a-sorienter/avancer-dans-ses-choix/"
 
@@ -31,8 +27,8 @@ from = "/stages/index.html"
 to = "/tags-videos/stages/"
 
 [[redirects]]
-from = "/melina-chercheuse-en-agrochimie/index.html"
-to = "/les-videos/video/"
+from = "/les-videos/laura-formatrice-en-langue-occitane/index.html"
+to = "/les-videos/laure-formatrice-en-langue-occitane/"
 
 [[redirects]]
 from = "/landes/index.html"
@@ -61,8 +57,4 @@ to = "/les-videos/anna-graphiste-illustratrice-operatice-pao/"
 [[redirects]]
 from = "/les-videos/romane-opticienne-lunetiere-1/index.html"
 to = "/les-videos/romane-opticienne/"
-
-[[redirects]]
-from = "/video/index.html"
-to = "/les-videos/video/"
 
