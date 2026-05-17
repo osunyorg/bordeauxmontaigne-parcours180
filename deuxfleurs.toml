@@ -31,6 +31,10 @@ from = "/les-videos/laura-formatrice-en-langue-occitane/index.html"
 to = "/les-videos/laure-formatrice-en-langue-occitane/"
 
 [[redirects]]
+from = "/les-videos/maude-cheffe-entreprise/index.html"
+to = "/les-videos/maud-cheffe-entreprise/"
+
+[[redirects]]
 from = "/landes/index.html"
 to = "/territoires/landes/"
 
