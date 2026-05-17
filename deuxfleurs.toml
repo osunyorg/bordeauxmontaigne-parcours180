@@ -51,6 +51,10 @@ from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
+from = "/les-videos/alexis-consultant-webmarketing-1/index.html"
+to = "/les-videos/thomas-conseille-principal-education/"
+
+[[redirects]]
 from = "/les-videos/sylvain-journaliste-pigiste-1/index.html"
 to = "/les-videos/anna-graphiste-illustratrice-operatice-pao/"
 
