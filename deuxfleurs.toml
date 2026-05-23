@@ -27,6 +27,10 @@ from = "/stages/index.html"
 to = "/tags-videos/stages/"
 
 [[redirects]]
+from = "/les-services-communs-universitaires-d-information-d-orientation-et-d-insertion-professionnelle-scuio/index.html"
+to = "/les-sujets-abordes/les-services-communs-universitaires-d-information-d-orientation-et-d-insertion-professionnelle-scuio/"
+
+[[redirects]]
 from = "/les-videos/laura-formatrice-en-langue-occitane/index.html"
 to = "/les-videos/laure-formatrice-en-langue-occitane/"
 
@@ -37,6 +41,10 @@ to = "/les-videos/maud-cheffe-entreprise/"
 [[redirects]]
 from = "/landes/index.html"
 to = "/territoires/landes/"
+
+[[redirects]]
+from = "/les-formations-d-excellence-a-l-universite-sont-des-cursus-selectifs-ou-renforces-qui-permettent-de/index.html"
+to = "/les-sujets-abordes/les-formations-d-excellence-a-l-universite-sont-des-cursus-selectifs-ou-renforces-qui-permettent-de/"
 
 [[redirects]]
 from = "/melina-chercheuse-en-geochimie-et-ecotoxicologie/index.html"
