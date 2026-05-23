@@ -47,6 +47,10 @@ from = "/lot-et-garonne/index.html"
 to = "/territoires/lot-et-garonne/"
 
 [[redirects]]
+from = "/les-doubles-diplomes-a-l-universite/index.html"
+to = "/les-sujets-abordes/les-doubles-diplomes-a-l-universite/"
+
+[[redirects]]
 from = "/les-videos/melina-video-1/index.html"
 to = "/les-videos/melina-chercheuse-en-geochimie-et-ecotoxicologie/"
 
