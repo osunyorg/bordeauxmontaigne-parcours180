@@ -31,6 +31,14 @@ from = "/les-services-communs-universitaires-d-information-d-orientation-et-d-in
 to = "/les-sujets-abordes/les-services-communs-universitaires-d-information-d-orientation-et-d-insertion-professionnelle-scuio/"
 
 [[redirects]]
+from = "/la-cesure/index.html"
+to = "/les-sujets-abordes/la-cesure/"
+
+[[redirects]]
+from = "/des-effectifs-reduits-a-l-universite/index.html"
+to = "/les-sujets-abordes/des-effectifs-reduits-a-l-universite/"
+
+[[redirects]]
 from = "/les-videos/laura-formatrice-en-langue-occitane/index.html"
 to = "/les-videos/laure-formatrice-en-langue-occitane/"
 
@@ -77,4 +85,8 @@ to = "/les-videos/anna-graphiste-illustratrice-operatice-pao/"
 [[redirects]]
 from = "/les-videos/romane-opticienne-lunetiere-1/index.html"
 to = "/les-videos/romane-opticienne/"
+
+[[redirects]]
+from = "/passerelles-et-equivalences/index.html"
+to = "/les-sujets-abordes/passerelles-et-equivalences/"
 
