@@ -1,10 +1,16 @@
-import { initTabs, applyColors, filterCompetences } from "./ui.js";
+import {
+  initTabs,
+  applyColors,
+  filterCompetences,
+  filterSubjects,
+} from "./ui.js";
 
 async function buildPage() {
   // --- INITIALISATION DE L'UI ---
+  filterSubjects();
   applyColors();
-  initTabs();
   filterCompetences();
+  initTabs();
 
   // --- FILTRAGE DES COMPÉTENCES ---
   // const competencesAutorisees = stringToArray(pageData.competencesASorienter);
