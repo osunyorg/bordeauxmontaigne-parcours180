@@ -28,7 +28,7 @@ if (window.location.pathname.includes("/territoires/")) {
     gironde: "#346FFF",
     landes: "#FFC263",
     "pyrenees-atlantiques": "#46C7C7",
-    // 'lot-et-garonne': '#C458CB',
+    "lot-et-garonne": "#C458CB",
   };
 
   let colorHex = null;

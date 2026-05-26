@@ -1,6 +1,7 @@
 const temoignages = document.querySelector(
   ".block-class-decouvrir-des-videos-de-temoignages",
 );
+if (!temoignages) return;
 temoignages.style.scrollBehavior = "smooth";
 const outil = document.querySelector(
   ".block-class-qu-est-ce-que-la-plateforme",

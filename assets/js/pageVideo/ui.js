@@ -2,7 +2,7 @@ export function initTabs() {
   const parcoursBlocks = document.querySelectorAll(
     ".block-class-explorer-son-parcours li",
   );
-
+  const coucou = 1;
   const blocks = [
     document.querySelector(".block-class-le-parcours-universitaire"),
     document.querySelector(".block-class-son-metier"),
