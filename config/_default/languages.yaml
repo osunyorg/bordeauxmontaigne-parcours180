@@ -4,8 +4,8 @@ fr:
   title: >-
     Mon parcours en 180s
   contentDir: content/fr
-  languageCode: fr
-  languageName: Français
+  locale: fr
+  label: Français
   buildFuture: true
   params:
     contact_details:
