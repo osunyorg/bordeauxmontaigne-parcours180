@@ -3,6 +3,7 @@ import {
   applyColors,
   filterCompetences,
   filterSubjects,
+  filterRelatedVideo,
 } from "./ui.js";
 async function buildPage() {
   // --- INITIALISATION DE L'UI ---
@@ -10,6 +11,7 @@ async function buildPage() {
   filterSubjects();
   applyColors();
   filterCompetences();
+  filterRelatedVideo();
 
   // --- FILTRAGE DES COMPÉTENCES ---
   // const competencesAutorisees = stringToArray(pageData.competencesASorienter);

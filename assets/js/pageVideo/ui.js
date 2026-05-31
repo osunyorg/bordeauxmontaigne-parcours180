@@ -40,6 +40,33 @@ export function initTabs() {
   });
 }
 
+export const filterRelatedVideo = () => {
+  const videoLi = document.querySelectorAll(
+    ".taxonomy-tags-videos .taxonomy-children li",
+  );
+  let videoTags = [];
+  videoLi.forEach((li) => {
+    videoTags.push(li.querySelector("a")?.innerHTML);
+  });
+
+  const pages = document.querySelectorAll(
+    ".block-class-les-videos-associes .container .block-content .pages > *",
+  );
+
+  pages.forEach((page) => {
+    const pageLinks = page.querySelectorAll("a");
+    let pageTags = [];
+    pageLinks.forEach((link) => {
+      pageTags.push(link.innerHTML);
+    });
+
+    const found = pageTags.some((tag) => videoTags.includes(tag));
+    console.log(found);
+
+    page.style.display = found ? "block" : "none";
+  });
+};
+
 export const filterSubjects = () => {
   const subjects = document.querySelectorAll(
     ".taxonomy-les-sujets-abordes .taxonomy-children li",
@@ -49,7 +76,7 @@ export const filterSubjects = () => {
     ".block-class-les-sujets-abordes .container .block-content .categories > *",
   );
 
-  // Liste des titres de compétences
+  // Liste des titres des suejets
   const subjectTitles = Array.from(subjects).map((competence) =>
     competence.textContent.trim(),
   );
