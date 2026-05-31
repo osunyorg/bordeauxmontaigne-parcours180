@@ -40,7 +40,48 @@ export function initTabs() {
   });
 }
 
+let videoTags = [];
+let selectedTag = "";
+export const setCurrentTag = (newTag) => {
+  selectedTag = newTag;
+};
+
+export const initRelatedTags = () => {
+  const videoLi = document.querySelectorAll(
+    ".taxonomy-tags-videos .taxonomy-children li",
+  );
+  videoLi.forEach((li) => {
+    videoTags.push(li.querySelector("a")?.innerHTML);
+  });
+
+  const container = document.querySelector(
+    ".block-class-les-videos-associes .block-content",
+  );
+  container.classList.add("related-videos");
+  const videoContainer = document.querySelector(".block-video .block-content");
+  videoContainer.appendChild(container);
+  setCurrentTag(videoTags[0]);
+
+  //construct tag buttons
+};
+
 export const filterRelatedVideo = () => {
+  const pages = document.querySelectorAll(".related-videos .pages > *");
+
+  pages.forEach((page) => {
+    const pageLinks = page.querySelectorAll("a");
+    let pageTags = [];
+    pageLinks.forEach((link) => {
+      pageTags.push(link.innerHTML);
+    });
+
+    const found = pageTags.some((tag) => tag === selectedTag);
+
+    page.style.display = found ? "block" : "none";
+  });
+};
+
+export const createTagButtons = () => {
   const videoLi = document.querySelectorAll(
     ".taxonomy-tags-videos .taxonomy-children li",
   );
@@ -61,7 +102,6 @@ export const filterRelatedVideo = () => {
     });
 
     const found = pageTags.some((tag) => videoTags.includes(tag));
-    console.log(found);
 
     page.style.display = found ? "block" : "none";
   });
@@ -144,7 +184,6 @@ export function applyColors() {
     if (subjectArticles[index].style.display === "none") return;
 
     const couleur = (Math.random() * (couleurs.length - 1)).toFixed(0);
-    console.log(couleurs[couleur]);
     subject.style.borderColor = couleurs[couleur];
   });
 

@@ -39,7 +39,7 @@ body.pages__section main
                     margin-bottom: 1rem
 
                     h2
-                        font-size: 24px
+                        // font-size: 24px
                         font-weight: bold
 
                     .description
@@ -52,6 +52,32 @@ body.pages__section main
 
                 & > p
                     display: none
+
+        .related-videos
+
+            display: inline
+            grid-column-start: 9
+            grid-column-end: 13
+            height: 600px
+            overflow-y: scroll
+            padding-bottom: 1rem !important
+            box-sizing: border-box
+
+            .top .block-title
+                font-size: 20px
+
+            .pages
+                display: inline
+
+                .page
+                    .page-title
+                        font-size: $body-size
+                        margin-bottom: 4px
+                    display: revert
+                    .page-subtitle, .page-description, .page-categories
+                        display: none
+
+
 
         .block-class-voir-plus-de-videos-sur-le-sujet
             display: none

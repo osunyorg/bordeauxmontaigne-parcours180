@@ -4,10 +4,12 @@ import {
   filterCompetences,
   filterSubjects,
   filterRelatedVideo,
+  initRelatedTags,
 } from "./ui.js";
 async function buildPage() {
   // --- INITIALISATION DE L'UI ---
   initTabs();
+  initRelatedTags();
   filterSubjects();
   applyColors();
   filterCompetences();
