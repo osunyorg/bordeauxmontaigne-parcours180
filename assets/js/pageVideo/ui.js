@@ -2,7 +2,6 @@ export function initTabs() {
   const parcoursBlocks = document.querySelectorAll(
     ".block-class-explorer-son-parcours li",
   );
-  const coucou = 1;
   const blocks = [
     document.querySelector(".block-class-le-parcours-universitaire"),
     document.querySelector(".block-class-son-metier"),
@@ -41,12 +40,14 @@ export function initTabs() {
 }
 
 let videoTags = [];
+let tagButtons = [];
 let selectedTag = "";
 export const setCurrentTag = (newTag) => {
   selectedTag = newTag;
 };
 
 export const initRelatedTags = () => {
+  //Populate video tags
   const videoLi = document.querySelectorAll(
     ".taxonomy-tags-videos .taxonomy-children li",
   );
@@ -63,6 +64,32 @@ export const initRelatedTags = () => {
   setCurrentTag(videoTags[0]);
 
   //construct tag buttons
+  const topContainer = container.querySelector(".top");
+  const tagContainer = document.createElement("div");
+  topContainer.appendChild(tagContainer);
+  tagContainer.classList.add("tag-container");
+
+  videoTags.forEach((tag) => {
+    const button = document.createElement("button");
+    button.innerHTML = tag;
+    button.classList.add("tag-button");
+    tagContainer.appendChild(button);
+    tagButtons.push(button);
+
+    //Handle button click
+    button.onclick = (e) => {
+      console.log(button.innerHTML);
+      button.classList.add("active");
+      setCurrentTag(button.innerHTML);
+      filterRelatedVideo();
+
+      tagButtons.forEach((tb) => {
+        if (tb.innerHTML !== button.innerHTML) {
+          tb.classList.remove("active");
+        }
+      });
+    };
+  });
 };
 
 export const filterRelatedVideo = () => {

@@ -58,18 +58,42 @@ body.pages__section main
             display: inline
             grid-column-start: 9
             grid-column-end: 13
-            height: 600px
-            overflow-y: scroll
             padding-bottom: 1rem !important
             box-sizing: border-box
 
             .top .block-title
                 font-size: 20px
 
+            .tag-container
+                margin: 16px 0px
+                gap: 8px
+                display: flex
+                flex-wrap: wrap
+
+                .tag-button
+                    font-size: $body-size
+                    text-align: left
+                    background-color: $color-background-alt
+                    border: none
+                    border-radius: 4px
+                    padding: 4px 8px
+                & :hover
+                    background-color: $color-primary-medium
+
+                & .active
+                    background-color: $color-accent
+
             .pages
-                display: inline
+                display: block
+                height: 500px
+                overflow-y: scroll
+
+                .media
+                    width: 80%
 
                 .page
+                    width: 80%
+
                     .page-title
                         font-size: $body-size
                         margin-bottom: 4px
