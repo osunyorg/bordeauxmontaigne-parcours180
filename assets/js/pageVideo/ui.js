@@ -69,16 +69,18 @@ export const initRelatedTags = () => {
   topContainer.appendChild(tagContainer);
   tagContainer.classList.add("tag-container");
 
-  videoTags.forEach((tag) => {
+  videoTags.forEach((tag, index) => {
     const button = document.createElement("button");
     button.innerHTML = tag;
     button.classList.add("tag-button");
     tagContainer.appendChild(button);
     tagButtons.push(button);
+    if (index == 0) {
+      button.classList.add("active");
+    }
 
     //Handle button click
     button.onclick = (e) => {
-      console.log(button.innerHTML);
       button.classList.add("active");
       setCurrentTag(button.innerHTML);
       filterRelatedVideo();
@@ -94,8 +96,18 @@ export const initRelatedTags = () => {
 
 export const filterRelatedVideo = () => {
   const pages = document.querySelectorAll(".related-videos .pages > *");
+  let pageTitle = document.querySelector(".block-video .block-title").innerHTML;
+  pageTitle = pageTitle.replace(/\s/g, "");
+  pageTitle = pageTitle.toLowerCase();
 
   pages.forEach((page) => {
+    let title = page.querySelector(".page-title a").innerHTML;
+    title = title.replace(/\s/g, "");
+    title = title.toLowerCase();
+    if (title === pageTitle) {
+      page.style.display = "none";
+      return;
+    }
     const pageLinks = page.querySelectorAll("a");
     let pageTags = [];
     pageLinks.forEach((link) => {
