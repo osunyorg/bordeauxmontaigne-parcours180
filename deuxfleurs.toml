@@ -35,12 +35,44 @@ from = "/la-cesure/index.html"
 to = "/les-sujets-abordes/la-cesure/"
 
 [[redirects]]
+from = "/tags-videos/employabilite-et-diplomes/index.html"
+to = "/tags-videos/employabilite/"
+
+[[redirects]]
+from = "/tags-videos/lien-competences-formation/index.html"
+to = "/tags-videos/lien-formation-emploi/"
+
+[[redirects]]
+from = "/tags-videos/interruption/index.html"
+to = "/tags-videos/interruption-d-etudes/"
+
+[[redirects]]
 from = "/des-effectifs-reduits-a-l-universite/index.html"
 to = "/les-sujets-abordes/des-effectifs-reduits-a-l-universite/"
 
 [[redirects]]
+from = "/tags-videos/apport-des-etudes-superieures/index.html"
+to = "/tags-videos/apport-des-etudes/"
+
+[[redirects]]
 from = "/tags-videos/ambition-autocensure/index.html"
 to = "/tags-videos/ambition/"
+
+[[redirects]]
+from = "/tags-videos/transition-secondaire-superieur/index.html"
+to = "/tags-videos/transition-vers-le-superieur/"
+
+[[redirects]]
+from = "/tags-videos/cumul-de-plusieurs-diplomes/index.html"
+to = "/tags-videos/cumul-de-diplomes/"
+
+[[redirects]]
+from = "/tags-videos/stereotypes/index.html"
+to = "/tags-videos/determinismes/"
+
+[[redirects]]
+from = "/tags-videos/decision-choix-dorientation/index.html"
+to = "/tags-videos/choix-dorientation/"
 
 [[redirects]]
 from = "/les-videos/laura-formatrice-en-langue-occitane/index.html"
@@ -59,6 +91,10 @@ from = "/les-formations-d-excellence-a-l-universite-sont-des-cursus-selectifs-ou
 to = "/les-sujets-abordes/les-formations-d-excellence-a-l-universite-sont-des-cursus-selectifs-ou-renforces-qui-permettent-de/"
 
 [[redirects]]
+from = "/tags-videos/interruption-reprise-detudes/index.html"
+to = "/tags-videos/interruption-d-etudes/"
+
+[[redirects]]
 from = "/melina-chercheuse-en-geochimie-et-ecotoxicologie/index.html"
 to = "/les-videos/melina-chercheuse-en-geochimie-et-ecotoxicologie/"
 
@@ -72,7 +108,7 @@ to = "/les-sujets-abordes/les-doubles-diplomes-a-l-universite/"
 
 [[redirects]]
 from = "/tags-videos/stereotypes-et-determinismes/index.html"
-to = "/tags-videos/stereotypes/"
+to = "/tags-videos/determinismes/"
 
 [[redirects]]
 from = "/les-videos/melina-video-1/index.html"
@@ -85,6 +121,10 @@ to = "/expositions/archives-expositions/"
 [[redirects]]
 from = "/les-videos/alexis-consultant-webmarketing-1/index.html"
 to = "/les-videos/thomas-conseille-principal-education/"
+
+[[redirects]]
+from = "/tags-videos/etudes-longues-vs-etudes-courtes/index.html"
+to = "/tags-videos/etudes-longues-vs-courtes/"
 
 [[redirects]]
 from = "/les-videos/sylvain-journaliste-pigiste-1/index.html"
