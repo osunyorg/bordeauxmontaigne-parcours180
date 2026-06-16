@@ -5,8 +5,18 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("source").forEach((source) => {
     if (source.hasAttribute("srcset")) {
       let url = source.getAttribute("srcset");
-      let nouvelleUrl = url.replace(/width=\d+/, "width=1500");
+      let nouvelleUrl = url.replace(/width=\d+/, "width=1920");
       source.setAttribute("srcset", nouvelleUrl);
+    }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("img").forEach((source) => {
+    if (source.hasAttribute("src")) {
+      let url = source.getAttribute("src");
+      let nouvelleUrl = url.replace(/width=\d+/, "width=2560");
+      source.setAttribute("src", nouvelleUrl);
     }
   });
 });
