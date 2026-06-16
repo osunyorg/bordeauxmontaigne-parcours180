@@ -39,6 +39,10 @@ from = "/des-effectifs-reduits-a-l-universite/index.html"
 to = "/les-sujets-abordes/des-effectifs-reduits-a-l-universite/"
 
 [[redirects]]
+from = "/tags-videos/ambition-autocensure/index.html"
+to = "/tags-videos/ambition/"
+
+[[redirects]]
 from = "/les-videos/laura-formatrice-en-langue-occitane/index.html"
 to = "/les-videos/laure-formatrice-en-langue-occitane/"
 
@@ -65,6 +69,10 @@ to = "/territoires/lot-et-garonne/"
 [[redirects]]
 from = "/les-doubles-diplomes-a-l-universite/index.html"
 to = "/les-sujets-abordes/les-doubles-diplomes-a-l-universite/"
+
+[[redirects]]
+from = "/tags-videos/stereotypes-et-determinismes/index.html"
+to = "/tags-videos/stereotypes/"
 
 [[redirects]]
 from = "/les-videos/melina-video-1/index.html"
