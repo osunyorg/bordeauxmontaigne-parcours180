@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // HOMEPAGE
 if (window.location.pathname === "/") {
   import("./home/grabToScroll");
+  import("./home/discovery");
 }
 
 // PAGE VIDEO
