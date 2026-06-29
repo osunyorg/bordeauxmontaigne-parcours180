@@ -56,9 +56,10 @@ for (i = 0; i < discoveries.length; i++) {
   const rand = Math.round(random_number() * pages.length);
   const video = pages[rand];
   const discovery = discoveries[i];
+
   //title
-  const discoveryTitle = discovery.querySelector("figcaption p .signature");
   let title = video.querySelector(".page-title a").innerHTML;
+  const discoveryTitle = discovery.querySelector("figcaption p .signature");
   discoveryTitle.innerHTML = title;
 
   //quote
@@ -72,4 +73,16 @@ for (i = 0; i < discoveries.length; i++) {
   discoveryImage.querySelectorAll("source").forEach((source) => {
     source.srcset = image;
   });
+
+  //link
+  const link = video.querySelector("a");
+  console.log(link);
+  const discorveryLink = document.createElement("a");
+  discorveryLink.href = link.href;
+  discovery.append(discorveryLink);
+
+  const figure = discovery.querySelector("figure");
+  const figCaption = discovery.querySelector("figcaption");
+  figure.append(discorveryLink);
+  discorveryLink.append(figCaption);
 }
