@@ -60,6 +60,8 @@ for (i = 0; i < discoveries.length; i++) {
   //title
   let title = video.querySelector(".page-title a").innerHTML;
   const discoveryTitle = discovery.querySelector("figcaption p .signature");
+  title = title.split(",")[0].trim();
+  title = "Découvrez le témoignage de " + title;
   discoveryTitle.innerHTML = title;
 
   //quote

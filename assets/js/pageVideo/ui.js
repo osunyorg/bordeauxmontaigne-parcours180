@@ -102,12 +102,14 @@ export const filterRelatedVideo = () => {
 
   pages.forEach((page) => {
     let title = page.querySelector(".page-title a").innerHTML;
+    const displayTitle = title.split(",")[0].trim();
     title = title.replace(/\s/g, "");
     title = title.toLowerCase();
     if (title === pageTitle) {
       page.style.display = "none";
       return;
     }
+    page.querySelector(".page-title a").innerHTML = displayTitle;
     const pageLinks = page.querySelectorAll("a");
     let pageTags = [];
     pageLinks.forEach((link) => {
