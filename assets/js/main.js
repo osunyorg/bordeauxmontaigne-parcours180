@@ -72,3 +72,11 @@ if (window.location.pathname.includes("/territoires/")) {
   });
   import("./territoires/featuredVideo.js");
 }
+
+if (
+  window.location.pathname.includes("/les-sujets-abordes/") ||
+  window.location.pathname.includes("/territoires/") ||
+  window.location.pathname.includes("/les-competences-a-sorienter/")
+) {
+  import("./removeProfessions.js");
+}
