@@ -232,3 +232,43 @@ export function applyColors() {
     if (couleurs[index]) art.style.background = couleurs[index];
   });
 }
+
+const badgeDescriptions = {
+  horizon: "Ce témoignage présente un parcours avec une mobilité nationale : dans plusieurs villes ou régions de France.",
+  parcours: "Ce témoignage présente un parcours construit en partie à l’international : avec une mobilité dans un ou plusieurs pays.",
+  reussite: "Ce témoignage présente un parcours construit localement : principalement dans la ville ou la région d'origine.",
+};
+
+export function createBadgeInformation() {
+  const badge = document.querySelector(
+    ".block-class-les-chiffres-cles-de-la-video .with-image",
+  );
+  const badgeHTML = badge.querySelector(".key-figure-text");
+  const spanToRemove = badge.querySelector(".key-figure-text span");
+  badgeHTML.removeChild(spanToRemove);
+  const badgeType = badgeHTML.innerHTML;
+  const badgeDescription = badgeDescriptions[badgeType];
+
+  const informationElement = document.createElement("div");
+  informationElement.innerHTML = badgeDescription;
+
+  const container = badge.querySelector(".is-svg") ?? badge.querySelector(".is-png");
+  container.appendChild(informationElement);
+
+  container.addEventListener("mouseenter", (e) => {
+    informationElement.style.opacity = 1;
+  });
+  container.addEventListener("mouseleave", (e) => {
+    informationElement.style.opacity = 0;
+  });
+
+  informationElement.style.backgroundColor = "#FBB53B";
+  informationElement.style.position = "absolute";
+  informationElement.style.padding = "8px";
+  informationElement.style.borderRadius = "8px";
+  informationElement.style.fontSize = "18px";
+  informationElement.style.left = "230px";
+  informationElement.style.bottom = "10px";
+  informationElement.style.maxWidth = "320px";
+  informationElement.style.opacity = 0;
+}

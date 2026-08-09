@@ -5,6 +5,7 @@ import {
   filterSubjects,
   filterRelatedVideo,
   initRelatedTags,
+  createBadgeInformation,
 } from "./ui.js";
 async function buildPage() {
   // --- INITIALISATION DE L'UI ---
@@ -14,6 +15,7 @@ async function buildPage() {
   applyColors();
   filterCompetences();
   filterRelatedVideo();
+  createBadgeInformation();
 
   // --- FILTRAGE DES COMPÉTENCES ---
   // const competencesAutorisees = stringToArray(pageData.competencesASorienter);
