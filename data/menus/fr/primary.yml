@@ -35,4 +35,13 @@ items:
   new_tab: false
   children: []
   descendants_targets: []
+- title: Boîte à outils
+  slug: boite-a-outils
+  target: "/boite-a-outils/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/boite-a-outils"
+  file: content/fr/pages/boite-a-outils/_index.html
 
