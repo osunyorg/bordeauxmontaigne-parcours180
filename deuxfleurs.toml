@@ -1,0 +1,144 @@
+[[cors]]
+allowed_origins = "*"
+allowed_methods = ["GET", "POST"]
+allowed_headers = "*"
+
+[[headers]]
+for = ["**/*.woff2", "**/*.woff", "**/*.svg", "**/*.ttf", "**/*.otf", "**/*.eot", "**/*.js", "**/*.css"]
+compress = "gzip"
+[headers.values]
+Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
+[headers.values]
+Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/avancer-dans-ses-choix/index.html"
+to = "/les-competences-a-sorienter/avancer-dans-ses-choix/"
+
+[[redirects]]
+from = "/pyrenees-atlantiques/index.html"
+to = "/territoires/pyrenees-atlantiques/"
+
+[[redirects]]
+from = "/stages/index.html"
+to = "/tags-videos/stages/"
+
+[[redirects]]
+from = "/les-services-communs-universitaires-d-information-d-orientation-et-d-insertion-professionnelle-scuio/index.html"
+to = "/les-sujets-abordes/les-services-communs-universitaires-d-information-d-orientation-et-d-insertion-professionnelle-scuio/"
+
+[[redirects]]
+from = "/la-cesure/index.html"
+to = "/les-sujets-abordes/la-cesure/"
+
+[[redirects]]
+from = "/tags-videos/employabilite-et-diplomes/index.html"
+to = "/tags-videos/employabilite/"
+
+[[redirects]]
+from = "/tags-videos/lien-competences-formation/index.html"
+to = "/tags-videos/lien-formation-emploi/"
+
+[[redirects]]
+from = "/tags-videos/interruption/index.html"
+to = "/tags-videos/interruption-d-etudes/"
+
+[[redirects]]
+from = "/des-effectifs-reduits-a-l-universite/index.html"
+to = "/les-sujets-abordes/des-effectifs-reduits-a-l-universite/"
+
+[[redirects]]
+from = "/tags-videos/apport-des-etudes-superieures/index.html"
+to = "/tags-videos/apport-des-etudes/"
+
+[[redirects]]
+from = "/tags-videos/ambition-autocensure/index.html"
+to = "/tags-videos/ambition/"
+
+[[redirects]]
+from = "/tags-videos/transition-secondaire-superieur/index.html"
+to = "/tags-videos/transition-vers-le-superieur/"
+
+[[redirects]]
+from = "/tags-videos/cumul-de-plusieurs-diplomes/index.html"
+to = "/tags-videos/cumul-de-diplomes/"
+
+[[redirects]]
+from = "/tags-videos/stereotypes/index.html"
+to = "/tags-videos/determinismes/"
+
+[[redirects]]
+from = "/tags-videos/decision-choix-dorientation/index.html"
+to = "/tags-videos/choix-dorientation/"
+
+[[redirects]]
+from = "/les-videos/celya-educatrice-specialisee-1/index.html"
+to = "/les-videos/camille-infirmiere/"
+
+[[redirects]]
+from = "/les-videos/laura-formatrice-en-langue-occitane/index.html"
+to = "/les-videos/laure-formatrice-en-langue-occitane/"
+
+[[redirects]]
+from = "/les-videos/maude-cheffe-entreprise/index.html"
+to = "/les-videos/maud-cheffe-entreprise/"
+
+[[redirects]]
+from = "/landes/index.html"
+to = "/territoires/landes/"
+
+[[redirects]]
+from = "/les-formations-d-excellence-a-l-universite-sont-des-cursus-selectifs-ou-renforces-qui-permettent-de/index.html"
+to = "/les-sujets-abordes/les-formations-d-excellence-a-l-universite-sont-des-cursus-selectifs-ou-renforces-qui-permettent-de/"
+
+[[redirects]]
+from = "/tags-videos/interruption-reprise-detudes/index.html"
+to = "/tags-videos/interruption-d-etudes/"
+
+[[redirects]]
+from = "/melina-chercheuse-en-geochimie-et-ecotoxicologie/index.html"
+to = "/les-videos/melina-chercheuse-en-geochimie-et-ecotoxicologie/"
+
+[[redirects]]
+from = "/lot-et-garonne/index.html"
+to = "/territoires/lot-et-garonne/"
+
+[[redirects]]
+from = "/les-doubles-diplomes-a-l-universite/index.html"
+to = "/les-sujets-abordes/les-doubles-diplomes-a-l-universite/"
+
+[[redirects]]
+from = "/tags-videos/stereotypes-et-determinismes/index.html"
+to = "/tags-videos/determinismes/"
+
+[[redirects]]
+from = "/les-videos/melina-video-1/index.html"
+to = "/les-videos/melina-chercheuse-en-geochimie-et-ecotoxicologie/"
+
+[[redirects]]
+from = "/archives-expositions/index.html"
+to = "/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/les-videos/alexis-consultant-webmarketing-1/index.html"
+to = "/les-videos/thomas-conseille-principal-education/"
+
+[[redirects]]
+from = "/tags-videos/etudes-longues-vs-etudes-courtes/index.html"
+to = "/tags-videos/etudes-longues-vs-courtes/"
+
+[[redirects]]
+from = "/les-videos/sylvain-journaliste-pigiste-1/index.html"
+to = "/les-videos/anna-graphiste-illustratrice-operatice-pao/"
+
+[[redirects]]
+from = "/les-videos/romane-opticienne-lunetiere-1/index.html"
+to = "/les-videos/romane-opticienne/"
+
+[[redirects]]
+from = "/passerelles-et-equivalences/index.html"
+to = "/les-sujets-abordes/passerelles-et-equivalences/"
+
