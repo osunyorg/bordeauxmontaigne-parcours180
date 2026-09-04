@@ -55,10 +55,6 @@ from = "/tags-videos/apport-des-etudes-superieures/index.html"
 to = "/tags-videos/apport-des-etudes/"
 
 [[redirects]]
-from = "/les-videos/charlotte-directrice-un-supermarche/index.html"
-to = "/les-videos/charlotte-directrice-supermarche/"
-
-[[redirects]]
 from = "/tags-videos/ambition-autocensure/index.html"
 to = "/tags-videos/ambition/"
 
