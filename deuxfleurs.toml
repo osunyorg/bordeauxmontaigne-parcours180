@@ -75,6 +75,10 @@ from = "/tags-videos/stereotypes/index.html"
 to = "/tags-videos/determinismes/"
 
 [[redirects]]
+from = "/les-videos/anais-responsable-dispositif-meidco-social/index.html"
+to = "/les-videos/anais-responsable-dispositif-medico-social/"
+
+[[redirects]]
 from = "/tags-videos/decision-choix-dorientation/index.html"
 to = "/tags-videos/choix-dorientation/"
 
