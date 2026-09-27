@@ -78,7 +78,6 @@ for (i = 0; i < discoveries.length; i++) {
 
   //link
   const link = video.querySelector("a");
-  console.log(link);
   const discorveryLink = document.createElement("a");
   discorveryLink.href = link.href;
   discovery.append(discorveryLink);
