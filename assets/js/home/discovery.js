@@ -53,7 +53,7 @@ let generate_seed = MurmurHash3(today);
 let random_number = SimpleFastCounter32(generate_seed(), generate_seed());
 
 for (i = 0; i < discoveries.length; i++) {
-  const rand = Math.round(random_number() * pages.length);
+  const rand = Math.round(random_number() * (pages.length - 1));
   const video = pages[rand];
   const discovery = discoveries[i];
 
