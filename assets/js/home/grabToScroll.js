@@ -6,7 +6,6 @@ let isMoving = false;
 
 //for firefox, consume drag event
 const elements = document.querySelectorAll("body.page__home .document-content .blocks .block-class-les-videos-par-competences-a-s-orienter ul a")
-console.log(elements)
 elements.forEach((e) => {
   if (e) {
     e.addEventListener('dragstart', (e) => e.preventDefault());
