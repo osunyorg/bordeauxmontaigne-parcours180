@@ -94,8 +94,25 @@ export const initRelatedTags = () => {
   });
 };
 
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 export const filterRelatedVideo = () => {
-  const pages = document.querySelectorAll(".related-videos .pages > *");
+  const container = document.querySelector(".related-videos .pages");
+  if (!container) return;
+
+  // 1. NodeList -> tableau, puis mélange
+  const pages = shuffle(Array.from(container.children));
+
+  // 2. Réinsertion dans le DOM dans le nouvel ordre
+  pages.forEach((page) => container.appendChild(page));
+  // console.log("oldPages", pages)
+
   let pageTitle = document.querySelector(".block-video .block-title").innerHTML;
   pageTitle = pageTitle.replace(/\s/g, "");
   pageTitle = pageTitle.toLowerCase();
