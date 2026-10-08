@@ -1,14 +1,27 @@
+function waitFor(selector, root = document) {
+  return new Promise((resolve) => {
+    const el = root.querySelector(selector);
+    if (el) return resolve(el);
+
+    const observer = new MutationObserver(() => {
+      const el = root.querySelector(selector);
+      if (el) {
+        observer.disconnect();
+        resolve(el);
+      }
+    });
+    observer.observe(root, { childList: true, subtree: true });
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-  const search = document.querySelector(".pf-trigger-btn")
-  search.addEventListener("click", () => {
-  console.log("search")
-      const container = document.querySelector(".pf-modal-aside")// as HTMLInputElement
-      container.style.display = "none"
-    setTimeout(() => {
-      const checkbox = document.querySelector(".pf-checkbox-input")// as HTMLInputElement
-      checkbox.click()
-    }, 500)
-  })
-})
-setTimeout(() => {
-}, 200)
+  const trigger = document.querySelector(".pf-trigger-btn");
+
+  trigger.addEventListener("click", async () => {
+    const aside = document.querySelector(".pf-modal-aside");
+    if (aside) aside.style.display = "none";
+
+    const checkbox = await waitFor(".pf-checkbox-input");
+    checkbox.click();
+  });
+});
