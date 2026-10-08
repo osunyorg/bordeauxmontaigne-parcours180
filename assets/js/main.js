@@ -26,6 +26,7 @@ if (window.location.pathname === "/") {
   import("./home/grabToScroll");
   import("./home/competencesArrows");
   import("./home/discovery");
+  import("./home/pageFind")
 }
 
 // PAGE VIDEO

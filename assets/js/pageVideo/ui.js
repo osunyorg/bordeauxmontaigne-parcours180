@@ -272,10 +272,12 @@ export function createBadgeInformation() {
   const container = badge.querySelector(".is-svg") ?? badge.querySelector(".is-png");
   container.appendChild(informationElement);
 
-  container.addEventListener("mouseenter", (e) => {
+  const trigger = container.querySelector("img")
+
+  trigger.addEventListener("mouseenter", (e) => {
     informationElement.style.opacity = 1;
   });
-  container.addEventListener("mouseleave", (e) => {
+  trigger.addEventListener("mouseleave", (e) => {
     informationElement.style.opacity = 0;
   });
 
