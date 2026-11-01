@@ -1,3 +1,5 @@
+import { shuffle } from "../helper";
+
 export function initTabs() {
   const parcoursBlocks = document.querySelectorAll(
     ".block-class-explorer-son-parcours li",
@@ -61,7 +63,7 @@ export const initRelatedTags = () => {
   container.classList.add("related-videos");
   const videoContainer = document.querySelector(".block-video .block-content");
   videoContainer.appendChild(container);
-  setCurrentTag(videoTags[0]);
+  // setCurrentTag(videoTags[0]);
 
   //construct tag buttons
   const topContainer = container.querySelector(".top");
@@ -75,13 +77,15 @@ export const initRelatedTags = () => {
     button.classList.add("tag-button");
     tagContainer.appendChild(button);
     tagButtons.push(button);
-    if (index == 0) {
+    if (tag === selectedTag) {
       button.classList.add("active");
     }
 
     //Handle button click
     button.onclick = (e) => {
       button.classList.add("active");
+      const newTag = button.innerHTML;
+      if (newTag === selectedTag) return;
       setCurrentTag(button.innerHTML);
       filterRelatedVideo();
 
@@ -93,14 +97,6 @@ export const initRelatedTags = () => {
     };
   });
 };
-
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
 
 export const filterRelatedVideo = () => {
   const container = document.querySelector(".related-videos .pages");
@@ -133,7 +129,12 @@ export const filterRelatedVideo = () => {
       pageTags.push(link.innerHTML);
     });
 
-    const found = pageTags.some((tag) => tag === selectedTag);
+    const found = pageTags.some((tag) => {
+      //display all if we don't have a selected tag
+      if (!selectedTag) return true;
+
+      return tag === selectedTag
+    });
 
     page.style.display = found ? "block" : "none";
   });

@@ -80,5 +80,5 @@ if (
   window.location.pathname.includes("/territoires/") ||
   window.location.pathname.includes("/les-competences-a-sorienter/")
 ) {
-  import("./removeProfessions.js");
+  import("./filterMiddlePage.js");
 }
