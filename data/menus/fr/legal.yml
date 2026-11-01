@@ -1,4 +1,13 @@
 ---
 title: Informations légales
-items: []
+items:
+- title: Mentions légales
+  slug: mentions-legales
+  target: "/mentions-legales/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/mentions-legales"
+  file: content/fr/pages/mentions-legales/_index.html
 
